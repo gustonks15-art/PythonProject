@@ -28,3 +28,11 @@ class TestContaBancaria(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# EXERCÍCIO 7.5 - TDD
+def test_rendimento_poupanca(self):
+    minha_conta = Conta(saldo_inicial=1000.0)
+
+       minha_conta.calcular_rendimento()
+
+        self.assertEqual(minha_conta.saldo, 1005.0)
